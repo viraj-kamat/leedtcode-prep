@@ -1,4 +1,4 @@
-#https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
+# https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
 
 
 def computeProfit(prices):
@@ -9,13 +9,13 @@ def computeProfit(prices):
         return 0
 
     minVal = prices[0]
-    profit = 0 
+    profit = 0
 
     for i in range(1,length):
         profit = max(profit, prices[i]-minVal)
         minVal = min(minVal, prices[i])
 
-    
+
     return profit
 
 
@@ -28,4 +28,3 @@ assert computeProfit([3, 2, 6, 5, 0, 3]) == 4
 assert computeProfit([1]) == 0
 assert computeProfit([]) == 0
 print("all tests passed")
-
