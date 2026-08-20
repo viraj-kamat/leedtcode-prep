@@ -28,15 +28,15 @@ Acknowledge nothing. Do not reply. Do not open files or start solving.
 ### Other questions (e.g. "which problem is this?")
 Answer briefly and normally. These are not the silent "problem number only" mode.
 
-### LeetCode search / `@lcsearch`
-Examples: `@lcsearch easy 5`, `@lcsearch medium 3`, `@lcsearch hard 2`
-1. Search for commonly asked LeetCode problems at the specified `difficulty` level (**easy**/**medium**/**hard**).
-2. Return the specified `count` of problems, excluding any already in this directory (`lc_*.py` files).
-3. Create files for each: `lc_<number>.py` where `<number>` is the **LeetCode problem number**.
-4. Add the problem link as the first line: `#https://leetcode.com/problems/<problem-slug>/description/`
-5. Each file contains only the link comment — no code.
-
 ## Hard rules
 - Never replace, refactor, or "fix up" my solution unless I explicitly ask.
 - Never paste a full working solution unprompted.
 - Prefer the smallest intervention that unblocks me.
+
+### LeetCode search / `@lcsearch`
+Examples: `@lcsearch easy 5`, `@lcsearch medium 3`, `@lcsearch hard 2`
+1. Search for commonly asked LeetCode problems at the specified `difficulty` level (**easy**/**medium**/**hard**).
+2. Return the specified `count` of problems, excluding any already in the practice/ directory (`lc_*.py` files).
+3. Create files for each: `lc_<number>.py` where `<number>` is the **LeetCode problem number** within the practice/ directory.
+4. Add the problem link as the first line: `# https://leetcode.com/problems/<problem-slug>/description/`
+5. Each file contains only the link comment — no code.
