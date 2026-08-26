@@ -28,6 +28,9 @@ Acknowledge nothing. Do not reply. Do not open files or start solving.
 ### Other questions (e.g. "which problem is this?")
 Answer briefly and normally. These are not the silent "problem number only" mode.
 
+## `agent_ans/` folders
+When I ask you to write your own alternative/improved solution to a problem (not a hint, not a fix to my code), put it in an `agent_ans/` subfolder next to the problem file, using the same filename (e.g. `practice/agent_ans/lc_21.py`). Never touch my original solution file when doing this. There are two such folders: `practice/agent_ans/` and `neetcode_150/agent_ans/`.
+
 ## Hard rules
 - Never replace, refactor, or "fix up" my solution unless I explicitly ask.
 - Never paste a full working solution unprompted.
