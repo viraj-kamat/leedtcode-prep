@@ -2,7 +2,7 @@
 
 
 
-def check_palindrom(chars):
+def check_palindrome(chars):
     length = len(chars)
     if length == 0:
         return True
@@ -28,14 +28,14 @@ def check_palindrom(chars):
 
 
 if __name__ == "__main__":
-    assert check_palindrom("A man, a plan, a canal: Panama") is True
-    assert check_palindrom("race a car") is False
-    assert check_palindrom(" ") is True
-    assert check_palindrom("") is True
-    assert check_palindrom("a") is True
-    assert check_palindrom(".,") is True
-    assert check_palindrom("0P") is False
-    assert check_palindrom("ab_a") is True
-    assert check_palindrom("12321") is True
-    assert check_palindrom("1a2") is False
+    assert check_palindrome("A man, a plan, a canal: Panama") is True
+    assert check_palindrome("race a car") is False
+    assert check_palindrome(" ") is True
+    assert check_palindrome("") is True
+    assert check_palindrome("a") is True
+    assert check_palindrome(".,") is True
+    assert check_palindrome("0P") is False
+    assert check_palindrome("ab_a") is True
+    assert check_palindrome("12321") is True
+    assert check_palindrome("1a2") is False
     print("All tests passed.")

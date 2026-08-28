@@ -21,23 +21,18 @@ def mergeSortedLists(l1, l2):
     cur = dummy
     while l1 and l2:
         if l1.val < l2.val:
-            tmp = l1.next
-            l1.next = None
             cur.next = l1
-            cur = l1
-            l1 = tmp
+            l1 = l1.next
         else:
-            tmp = l2.next
-            l2.next = None
             cur.next = l2
-            cur = l2
-            l2 = tmp
+            l2 = l2.next
+        cur = cur.next
     else:
-        if l1 or l2:
-            cur.next = l1 if l1 != None else l2
-
+        cur.next = l1 or l2
 
     return dummy.next
+
+
 
 
 def _build(values):
