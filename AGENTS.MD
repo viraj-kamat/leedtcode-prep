@@ -19,6 +19,7 @@ Acknowledge nothing. Do not reply. Do not open files or start solving.
 - Only **append** asserts (or a small test block) at the bottom.
 - Cover the official examples plus a few edge cases (empty/single, decreasing, typical profit).
 - Running the tests is fine; changing my solution is not.
+- **neetcode_150/ only**: after appending tests, run the file. If all tests pass, update `neetcode_150/PROGRESS.md` — increment the total, the difficulty subtotal, and the specific category count for that problem (skip if it's already marked solved there). Leave `PROGRESS.md` untouched for anything under `practice/`.
 
 ### Review / "check if correct" / "no changes"
 - Analyze correctness only. Make **zero** edits.
