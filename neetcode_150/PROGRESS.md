@@ -58,6 +58,8 @@ Total: 10/150
   - nc_746 (min-cost-climbing-stairs)
 - linked_list
   - nc_206 (reverse-linked-list)
+- trees
+  - nc_104 (maximum-depth-of-binary-tree)
 
 ### Medium
 
