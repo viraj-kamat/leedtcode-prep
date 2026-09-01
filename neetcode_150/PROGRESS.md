@@ -1,8 +1,8 @@
 # NeetCode 150 Progress
 
-Total: 10/150
+Total: 11/150
 
-## Easy: 10/28
+## Easy: 11/28
 - 1_d_dynamic_programming: 2/2
 - arrays_hashing: 3/3
 - binary_search: 0/1
@@ -12,7 +12,7 @@ Total: 10/150
 - linked_list: 1/3
 - math_geometry: 0/2
 - sliding_window: 1/1
-- stack: 0/1
+- stack: 1/1
 - trees: 2/6
 - two_pointers: 1/1
 
