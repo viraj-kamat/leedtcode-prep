@@ -19,7 +19,10 @@ Acknowledge nothing. Do not reply. Do not open files or start solving.
 - Only **append** asserts (or a small test block) at the bottom.
 - Cover the official examples plus a few edge cases (empty/single, decreasing, typical profit).
 - Running the tests is fine; changing my solution is not.
-- **neetcode_150/ only**: after appending tests, run the file. If all tests pass, update `neetcode_150/PROGRESS.md` — increment the total, the difficulty subtotal, and the specific category count for that problem (skip if it's already marked solved there). Leave `PROGRESS.md` untouched for anything under `practice/`.
+- **neetcode_150/ only**: after appending tests, run the file. If all tests pass, update `neetcode_150/PROGRESS.md` as before — increment the total, the difficulty subtotal, and the specific category count for that problem (skip if it's already marked solved there). Then ask me whether I need to redo this problem (practice it again later).
+  - If yes, add it to the `## Redos` section in `neetcode_150/PROGRESS.md`, under the matching `### Easy` / `### Medium` / `### Hard` subsection for that problem's difficulty. Within that subsection, group by category (e.g. `linked_list`, `1_d_dynamic_programming`) as a bullet, with each problem nested underneath as `nc_<number> (<problem-slug>)` — a category can hold multiple problems, so reuse the existing category bullet if one is already there instead of duplicating it.
+  - If no, leave the `## Redos` section untouched.
+- Leave `PROGRESS.md` untouched for anything under `practice/`.
 
 ### Review / "check if correct" / "no changes"
 - Analyze correctness only. Make **zero** edits.

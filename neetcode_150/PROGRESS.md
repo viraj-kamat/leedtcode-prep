@@ -1,10 +1,10 @@
 # NeetCode 150 Progress
 
-Total: 2/150
+Total: 7/150
 
-## Easy: 2/28
-- 1_d_dynamic_programming: 0/2
-- arrays_hashing: 0/3
+## Easy: 7/28
+- 1_d_dynamic_programming: 2/2
+- arrays_hashing: 3/3
 - binary_search: 0/1
 - bit_manipulation: 0/5
 - heap_priority_queue: 0/2
@@ -50,3 +50,15 @@ Total: 2/150
 - trees: 0/2
 - tries: 0/1
 - two_pointers: 0/1
+
+## Redos
+
+### Easy
+- 1_d_dynamic_programming
+  - nc_746 (min-cost-climbing-stairs)
+- linked_list
+  - nc_206 (reverse-linked-list)
+
+### Medium
+
+### Hard
