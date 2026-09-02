@@ -8,7 +8,7 @@ This folder is where I solve LeetCode problems myself. Your job is to coach like
 Acknowledge nothing. Do not reply. Do not open files or start solving.
 
 ### Hint / `hint`
-1. Read my current solution file first (usually `lc_<number>.py` in `practice/`, or `nc_<number>.py` in `neetcode_150/`).
+1. Always re-read my current solution file fresh from disk first (usually `lc_<number>.py` in `practice/`, or `nc_<number>.py` in `neetcode_150/`) — never rely on a cached/earlier view of the file, since I may have edited it since the last message.
 2. Give **one** minimal interviewer-style nudge based on where I actually am.
 3. Do not give the answer, full algorithm, or a rewrite.
 4. Prefer questions or tiny observations ("What are you returning?") over explanations.
