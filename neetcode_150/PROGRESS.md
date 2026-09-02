@@ -1,15 +1,15 @@
 # NeetCode 150 Progress
 
-Total: 11/150
+Total: 13/150
 
-## Easy: 11/28
+## Easy: 13/28
 - 1_d_dynamic_programming: 2/2
 - arrays_hashing: 3/3
 - binary_search: 0/1
 - bit_manipulation: 0/5
-- heap_priority_queue: 0/2
+- heap_priority_queue: 1/2
 - intervals: 0/1
-- linked_list: 1/3
+- linked_list: 2/3
 - math_geometry: 0/2
 - sliding_window: 1/1
 - stack: 1/1
@@ -56,6 +56,8 @@ Total: 11/150
 ### Easy
 - 1_d_dynamic_programming
   - nc_746 (min-cost-climbing-stairs)
+- heap_priority_queue
+  - nc_703 (kth-largest-element-in-a-stream)
 - linked_list
   - nc_206 (reverse-linked-list)
 - trees
